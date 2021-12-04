@@ -10,4 +10,5 @@ You will want to change/check the session ID variable to match your current sess
 
 ```loginctl```
 
-Then run this script, either in its own service, or a background screen, etc.
+Then run this script, I currently use crontab to start a screen at reboot.
+@reboot screen -dmS CheckTREX sudo python3 /path/to/file/CheckTrex.py
